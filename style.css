@@ -1,0 +1,104 @@
+/*
+* {
+    outline: 2px solid red;
+}
+
+color palette
+vibrant coral: #ee6055
+emerald: #60d394
+light green: #aaf683
+jasmine: #ffd97d
+salmon: #ff9b85
+*/
+
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: #678D5830;
+}
+
+body {
+    width: 900px;
+    margin: 0px auto;
+    background-color: #FBFFFE;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1B1B1E;
+}
+
+.page-img {
+    width: 900px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.page-img img {
+    width: 900px;
+    margin: -60px 0 0 0;
+}
+
+/*
+p, h1, h2, h3, .page-nav {
+    padding: 5px;
+    margin: 12px 4px;
+}
+*/
+
+h2, h3 {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+
+/*
+div {
+    margin: 12px;
+}
+*/
+
+.header-nav {
+    background-color: #678D58;
+    padding: 24px;
+}
+
+.page-nav-button {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #1B1B1E;
+    padding: 8px 16px;
+    background-color: #1B1B1E;
+    color: #FBFFFE;
+}
+
+.page-title {
+    font-size: 38px;
+    text-align: center;
+    padding: 16px;
+    margin: 0px;
+    background-color: #DD9787;
+    color: #FBFFFE;
+}
+
+.page-description, .ingredients {
+    padding: 12px;
+    margin: 24px 12px 12px 12px;
+}
+
+.page-description {
+    display: inline-block;
+    width: 500px;
+}
+
+.ingredients {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    border: 5px dotted #1B1B1E;
+    background-color: #678D58;
+    color: #FBFFFE;
+}
+
+.steps {
+    margin: 0 12px 12px 12px;
+    padding: 12px;
+}
